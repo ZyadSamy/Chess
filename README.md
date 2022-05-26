@@ -2,7 +2,7 @@
 *Course project for CSE 121: Programming 1, Alexandria University Faculty of Engineering,  
 Computer and Systems Engineering Dept .*
 
-**Description** 
+### Description
 
 Chess console application made in C programming language. 
  It provides the essential blocks found in any chess game, which are: 
@@ -19,17 +19,15 @@ In addition to the mentioned mechanics, some additional features were added to m
 
 ---
 
-**Team members**:  
+### Team members:  
 
-|Name |
-| - |
-|Ramy Ahmed El Sayed|
-|Zyad Samy Ramadan|
+- Ramy Ahmed El Sayed
+- Zyad Samy Ramadan
 
 
+---
 
-
-**Design overview** 
+### Design overview
 
 - Our design is mainly focused on our chess board. Our game functions in an infinite loop that breaks when one of the terminating game conditions occur (Checkmate or Stalemate). 
 - It checks for the user input depending on the specified player turn (Player 1 or Player 2) and, checks whether the input is valid or not. 
@@ -42,11 +40,15 @@ In addition to the mentioned mechanics, some additional features were added to m
 - Redo 
 - Once one of the terminating conditions occur, It breaks the loop and terminates the program. 
 
-## **Design assumptions** 
+---
+
+### Design assumptions 
 
 It is assumed that the number of moves will not exceed 1000, since the lack of dynamic arrays in C, and the complexity of using other data structures, which would behave like a dynamic array (e.g., Hash tables or Linked lists). 
 
-## **Used Data structures** 
+---
+
+### Used Data structures
 
 Our program mainly utilizes one data structure, which is Arrays. 
 
@@ -59,7 +61,9 @@ We have several arrays that behave as main parameters for most of the functions,
 5. Promotion array 
 6. Black and white king position arrays 
 
-## **Important functions** 
+---
+
+### Important functions
 
 
 **print\_board():** 
@@ -101,6 +105,7 @@ The screen contains:
 - Instructions for other functions. 
 - Player’s turn. 
 - Move to be inserted. 
+
 
 **User input:** 
 
@@ -158,9 +163,11 @@ The loaded game:
 
 ![](imgs/Aspose.Words.380f6962-a359-4543-b28b-a41fe456e34b.017.jpeg)
 
-## **Sample runs** 
+---
 
-1. 
+### Sample runs
+
+**Sample run 1**
 
 ![](imgs/Aspose.Words.380f6962-a359-4543-b28b-a41fe456e34b.018.jpeg)
 
@@ -170,7 +177,7 @@ The loaded game:
 
 ![](imgs/Aspose.Words.380f6962-a359-4543-b28b-a41fe456e34b.021.jpeg)
 
-2. 
+**Sample run 2**
 
 ![](imgs/Aspose.Words.380f6962-a359-4543-b28b-a41fe456e34b.022.jpeg)
 
