@@ -92,7 +92,7 @@ If a stalemate is reached, the game terminates with a draw.
 
 When the user starts the .exe, he is prompted by this screen: 
 
-![](Aspose.Words.380f6962-a359-4543-b28b-a41fe456e34b.005.jpeg)
+![](imgs/Aspose.Words.380f6962-a359-4543-b28b-a41fe456e34b.005.jpeg)
 
 The screen contains: 
 
@@ -106,92 +106,92 @@ The screen contains:
 
 The user is required to insert his move in this format, namely (A2A3/a2a3): 
 
-![](Aspose.Words.380f6962-a359-4543-b28b-a41fe456e34b.006.jpeg)
+![](imgs/Aspose.Words.380f6962-a359-4543-b28b-a41fe456e34b.006.jpeg)
 
 After inserting the input, the user is prompted with an updated chess board: 
 
-![](Aspose.Words.380f6962-a359-4543-b28b-a41fe456e34b.007.jpeg)
+![](imgs/Aspose.Words.380f6962-a359-4543-b28b-a41fe456e34b.007.jpeg)
 
 **Undo/Redo:** 
 
 If the user inserts ‘u’, the game undoes his last action. Example: 
 
-![](Aspose.Words.380f6962-a359-4543-b28b-a41fe456e34b.008.jpeg)
+![](imgs/Aspose.Words.380f6962-a359-4543-b28b-a41fe456e34b.008.jpeg)
 
 Player 1 will eat Player 2’s pawn located in B5: 
 
-![](Aspose.Words.380f6962-a359-4543-b28b-a41fe456e34b.009.jpeg)
+![](imgs/Aspose.Words.380f6962-a359-4543-b28b-a41fe456e34b.009.jpeg)
 
 The pawn is now added to Player 2’s lost units. If we want to undo the action, we insert ‘u’: 
 
-![](Aspose.Words.380f6962-a359-4543-b28b-a41fe456e34b.010.jpeg)
+![](imgs/Aspose.Words.380f6962-a359-4543-b28b-a41fe456e34b.010.jpeg)
 
 Which will result in: 
 
-![](Aspose.Words.380f6962-a359-4543-b28b-a41fe456e34b.011.jpeg)
+![](imgs/Aspose.Words.380f6962-a359-4543-b28b-a41fe456e34b.011.jpeg)
 
 And to redo what we just undid, the user can simply insert ‘d’: 
 
-![](Aspose.Words.380f6962-a359-4543-b28b-a41fe456e34b.012.jpeg)
+![](imgs/Aspose.Words.380f6962-a359-4543-b28b-a41fe456e34b.012.jpeg)
 
 **Save/Load:** 
 
 Supposing the player wants to save his chess match to continue later, for example: 
 
-![](Aspose.Words.380f6962-a359-4543-b28b-a41fe456e34b.013.jpeg)
+![](imgs/Aspose.Words.380f6962-a359-4543-b28b-a41fe456e34b.013.jpeg)
 
 If the player inserts ‘s’ in the input, the grid board is saved in a text file:
 
-![](Aspose.Words.380f6962-a359-4543-b28b-a41fe456e34b.014.jpeg)
+![](imgs/Aspose.Words.380f6962-a359-4543-b28b-a41fe456e34b.014.jpeg)
 
 Which will look like this: 
 
-![](Aspose.Words.380f6962-a359-4543-b28b-a41fe456e34b.015.jpeg)
+![](imgs/Aspose.Words.380f6962-a359-4543-b28b-a41fe456e34b.015.jpeg)
 
 The text file contains the grid board, black king’s position, white king’s position, and the turn at which it was saved. 
 
 If the player were to proceed and close the game and re-open, then type “l” as an input, the game will load and will proceed as usual: 
 
-![](Aspose.Words.380f6962-a359-4543-b28b-a41fe456e34b.016.jpeg)
+![](imgs/Aspose.Words.380f6962-a359-4543-b28b-a41fe456e34b.016.jpeg)
 
 The loaded game: 
 
-![](Aspose.Words.380f6962-a359-4543-b28b-a41fe456e34b.017.jpeg)
+![](imgs/Aspose.Words.380f6962-a359-4543-b28b-a41fe456e34b.017.jpeg)
 
 ## **Sample runs** 
 
 1. 
 
-![](Aspose.Words.380f6962-a359-4543-b28b-a41fe456e34b.018.jpeg)
+![](imgs/Aspose.Words.380f6962-a359-4543-b28b-a41fe456e34b.018.jpeg)
 
-![](Aspose.Words.380f6962-a359-4543-b28b-a41fe456e34b.019.jpeg)
+![](imgs/Aspose.Words.380f6962-a359-4543-b28b-a41fe456e34b.019.jpeg)
 
-![](Aspose.Words.380f6962-a359-4543-b28b-a41fe456e34b.020.jpeg)
+![](imgs/Aspose.Words.380f6962-a359-4543-b28b-a41fe456e34b.020.jpeg)
 
-![](Aspose.Words.380f6962-a359-4543-b28b-a41fe456e34b.021.jpeg)
+![](imgs/Aspose.Words.380f6962-a359-4543-b28b-a41fe456e34b.021.jpeg)
 
 2. 
 
-![](Aspose.Words.380f6962-a359-4543-b28b-a41fe456e34b.022.jpeg)
+![](imgs/Aspose.Words.380f6962-a359-4543-b28b-a41fe456e34b.022.jpeg)
 
-![](Aspose.Words.380f6962-a359-4543-b28b-a41fe456e34b.023.jpeg)
+![](imgs/Aspose.Words.380f6962-a359-4543-b28b-a41fe456e34b.023.jpeg)
 
-![](Aspose.Words.380f6962-a359-4543-b28b-a41fe456e34b.024.jpeg)
+![](imgs/Aspose.Words.380f6962-a359-4543-b28b-a41fe456e34b.024.jpeg)
 
-![](Aspose.Words.380f6962-a359-4543-b28b-a41fe456e34b.025.png)
+![](imgs/Aspose.Words.380f6962-a359-4543-b28b-a41fe456e34b.025.png)
 
 **3. Save/Load**
 
-![](Aspose.Words.380f6962-a359-4543-b28b-a41fe456e34b.026.png)
+![](imgs/Aspose.Words.380f6962-a359-4543-b28b-a41fe456e34b.026.png)
 
-![](Aspose.Words.380f6962-a359-4543-b28b-a41fe456e34b.027.png)
+![](imgs/Aspose.Words.380f6962-a359-4543-b28b-a41fe456e34b.027.png)
 
-![](Aspose.Words.380f6962-a359-4543-b28b-a41fe456e34b.028.png)
+![](imgs/Aspose.Words.380f6962-a359-4543-b28b-a41fe456e34b.028.png)
 
-![](Aspose.Words.380f6962-a359-4543-b28b-a41fe456e34b.029.jpeg)
+![](imgs/Aspose.Words.380f6962-a359-4543-b28b-a41fe456e34b.029.jpeg)
 
 **4. Stalemate**
 
-![](Aspose.Words.380f6962-a359-4543-b28b-a41fe456e34b.030.png)
+![](imgs/Aspose.Words.380f6962-a359-4543-b28b-a41fe456e34b.030.png)
 
-![](Aspose.Words.380f6962-a359-4543-b28b-a41fe456e34b.031.png)
+![](imgs/Aspose.Words.380f6962-a359-4543-b28b-a41fe456e34b.031.png)
